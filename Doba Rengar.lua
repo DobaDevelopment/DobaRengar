@@ -40,11 +40,11 @@ function Rengar.LoadMenu()
         Menu.Checkbox("Jungle.E",   "Use E", true) end)
 
     Menu.NewTree("Prediction", "Prediction Settings", function()
-        Menu.Slider("Chance.E","HitChance E",0.75, 0, 1, 0.05) end)
+        Menu.Slider("Chance.E","HitChance E",0.25, 0, 1, 0.05) end)
 
     Menu.NewTree("Range", "Spell Range Settings", function()
-        Menu.Slider("Max.E","E Max Range", 875, 500, 875)
-        Menu.Slider("Min.E","E Min Range",50, 0, 400) end)
+        Menu.Slider("Max.E","E Max Range", 625, 500, 650)
+        Menu.Slider("Min.E","E Min Range", 0, 0, 300) end)
 
     Menu.NewTree("Draw", "Drawing Settings", function()
         Menu.Checkbox("Drawing.W.Enabled",   "Draw W Range", false)
